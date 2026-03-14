@@ -94,6 +94,8 @@ module Legion
             cognitive_genesis cognitive_tessellation cognitive_fermentation
             cognitive_metabolism cognitive_phantom cognitive_tectonics
             cognitive_lucidity cognitive_paleontology cognitive_mycelium
+            cognitive_symbiosis cognitive_hologram cognitive_tide
+            cognitive_origami cognitive_alchemy cognitive_constellation
           ].freeze
 
           # Capability categories for self-description
@@ -311,7 +313,13 @@ module Legion
             CognitiveTectonics:            :cognition,
             CognitiveLucidity:             :perception,
             CognitivePaleontology:         :memory,
-            CognitiveMycelium:             :cognition
+            CognitiveMycelium:             :cognition,
+            CognitiveSymbiosis:            :cognition,
+            CognitiveHologram:             :memory,
+            CognitiveTide:                 :cognition,
+            CognitiveOrigami:              :cognition,
+            CognitiveAlchemy:              :cognition,
+            CognitiveConstellation:        :cognition
           }.freeze
 
           # Subsystem health labels
