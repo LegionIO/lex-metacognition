@@ -71,6 +71,8 @@ module Legion
             cognitive_load_balancing semantic_satiation
             cognitive_debt reality_testing cognitive_friction
             epistemic_curiosity cognitive_boundary decision_fatigue
+            cognitive_resonance latent_inhibition cognitive_surplus
+            transfer_learning cognitive_compression cognitive_plasticity
           ].freeze
 
           # Capability categories for self-description
@@ -228,7 +230,13 @@ module Legion
             CognitiveFriction:             :cognition,
             EpistemicCuriosity:            :motivation,
             CognitiveBoundary:             :safety,
-            DecisionFatigue:               :cognition
+            DecisionFatigue:               :cognition,
+            CognitiveResonance:            :perception,
+            LatentInhibition:              :cognition,
+            CognitiveSurplus:              :cognition,
+            TransferLearning:              :cognition,
+            CognitiveCompression:          :memory,
+            CognitivePlasticity:           :cognition
           }.freeze
 
           # Subsystem health labels
