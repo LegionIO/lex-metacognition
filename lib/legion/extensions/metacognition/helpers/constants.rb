@@ -88,6 +88,8 @@ module Legion
             cognitive_weathering cognitive_fingerprint cognitive_echo
             cognitive_mirror cognitive_blindspot cognitive_gravity
             cognitive_immune_memory cognitive_narrative_arc subliminal
+            cognitive_palimpsest cognitive_chrysalis qualia
+            cognitive_liminal cognitive_synesthesia cognitive_nostalgia
           ].freeze
 
           # Capability categories for self-description
@@ -287,7 +289,13 @@ module Legion
             CognitiveGravity:              :cognition,
             CognitiveImmuneMemory:         :safety,
             CognitiveNarrativeArc:         :introspection,
-            Subliminal:                    :cognition
+            Subliminal:                    :cognition,
+            CognitivePalimpsest:           :memory,
+            CognitiveChrysalis:            :cognition,
+            Qualia:                        :perception,
+            CognitiveLiminal:              :cognition,
+            CognitiveSynesthesia:          :perception,
+            CognitiveNostalgia:            :perception
           }.freeze
 
           # Subsystem health labels
