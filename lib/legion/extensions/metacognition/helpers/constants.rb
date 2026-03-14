@@ -98,6 +98,8 @@ module Legion
             cognitive_origami cognitive_alchemy cognitive_constellation
             cognitive_pendulum cognitive_erosion cognitive_prism
             cognitive_cocoon cognitive_compass cognitive_mosaic
+            cognitive_whirlpool cognitive_greenhouse cognitive_fossil_fuel
+            cognitive_lens cognitive_echo_chamber cognitive_labyrinth
           ].freeze
 
           # Capability categories for self-description
@@ -327,7 +329,13 @@ module Legion
             CognitivePrism:                :perception,
             CognitiveCocoon:               :cognition,
             CognitiveCompass:              :introspection,
-            CognitiveMosaic:               :cognition
+            CognitiveMosaic:               :cognition,
+            CognitiveWhirlpool:            :cognition,
+            CognitiveGreenhouse:           :cognition,
+            CognitiveFossilFuel:           :cognition,
+            CognitiveLens:                 :perception,
+            CognitiveEchoChamber:          :cognition,
+            CognitiveLabyrinth:            :cognition
           }.freeze
 
           # Subsystem health labels
