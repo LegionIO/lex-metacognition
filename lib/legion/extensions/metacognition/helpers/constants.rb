@@ -84,6 +84,8 @@ module Legion
             goal_management cognitive_debugging
             attention_spotlight cognitive_immune_response
             narrative_identity cognitive_triage
+            cognitive_horizon cognitive_autopilot self_talk
+            cognitive_weathering cognitive_fingerprint cognitive_echo
           ].freeze
 
           # Capability categories for self-description
@@ -271,7 +273,13 @@ module Legion
             AttentionSpotlight:            :perception,
             CognitiveImmuneResponse:       :safety,
             NarrativeIdentity:             :introspection,
-            CognitiveTriage:               :cognition
+            CognitiveTriage:               :cognition,
+            CognitiveHorizon:              :cognition,
+            CognitiveAutopilot:            :cognition,
+            SelfTalk:                      :introspection,
+            CognitiveWeathering:           :cognition,
+            CognitiveFingerprint:          :introspection,
+            CognitiveEcho:                 :cognition
           }.freeze
 
           # Subsystem health labels
