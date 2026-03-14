@@ -75,6 +75,9 @@ module Legion
             transfer_learning cognitive_compression cognitive_plasticity
             anosognosia confabulation cognitive_tempo
             hypothesis_testing cognitive_inertia sensory_gating
+            cognitive_synthesis metacognitive_monitoring
+            cognitive_defusion cognitive_reappraisal
+            semantic_priming cognitive_integration
           ].freeze
 
           # Capability categories for self-description
@@ -244,7 +247,13 @@ module Legion
             CognitiveTempo:                :cognition,
             HypothesisTesting:             :cognition,
             CognitiveInertia:              :cognition,
-            SensoryGating:                 :perception
+            SensoryGating:                 :perception,
+            CognitiveSynthesis:            :cognition,
+            MetacognitiveMonitoring:       :introspection,
+            CognitiveDefusion:             :introspection,
+            CognitiveReappraisal:          :introspection,
+            SemanticPriming:               :cognition,
+            CognitiveIntegration:          :cognition
           }.freeze
 
           # Subsystem health labels
