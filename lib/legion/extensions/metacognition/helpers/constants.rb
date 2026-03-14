@@ -104,6 +104,7 @@ module Legion
             cognitive_tapestry cognitive_lighthouse cognitive_avalanche
             cognitive_hourglass cognitive_magnet cognitive_weather
             cognitive_furnace cognitive_anchor cognitive_garden
+            codegen exec mind_growth
           ].freeze
 
           # Capability categories for self-description
@@ -127,6 +128,7 @@ module Legion
             Language:                      :introspection,
             Trust:                         :safety,
             Consent:                       :safety,
+            Codegen:                       :coordination,
             Coldstart:                     :cognition,
             Mesh:                          :communication,
             Dream:                         :cognition,
@@ -173,6 +175,7 @@ module Legion
             LearningRate:                  :cognition,
             EmotionalRegulation:           :introspection,
             Mentalizing:                   :communication,
+            MindGrowth:                    :introspection,
             Prospection:                   :cognition,
             Interoception:                 :perception,
             Mirror:                        :communication,
@@ -193,6 +196,7 @@ module Legion
             SomaticMarker:                 :perception,
             Affordance:                    :perception,
             EpisodicBuffer:                :memory,
+            Exec:                          :coordination,
             CognitiveFlexibility:          :cognition,
             EmbodiedSimulation:            :cognition,
             PredictiveProcessing:          :cognition,
