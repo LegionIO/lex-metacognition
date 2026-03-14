@@ -86,6 +86,8 @@ module Legion
             narrative_identity cognitive_triage
             cognitive_horizon cognitive_autopilot self_talk
             cognitive_weathering cognitive_fingerprint cognitive_echo
+            cognitive_mirror cognitive_blindspot cognitive_gravity
+            cognitive_immune_memory cognitive_narrative_arc subliminal
           ].freeze
 
           # Capability categories for self-description
@@ -279,7 +281,13 @@ module Legion
             SelfTalk:                      :introspection,
             CognitiveWeathering:           :cognition,
             CognitiveFingerprint:          :introspection,
-            CognitiveEcho:                 :cognition
+            CognitiveEcho:                 :cognition,
+            CognitiveMirror:               :communication,
+            CognitiveBlindspot:            :introspection,
+            CognitiveGravity:              :cognition,
+            CognitiveImmuneMemory:         :safety,
+            CognitiveNarrativeArc:         :introspection,
+            Subliminal:                    :cognition
           }.freeze
 
           # Subsystem health labels
