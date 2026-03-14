@@ -73,6 +73,8 @@ module Legion
             epistemic_curiosity cognitive_boundary decision_fatigue
             cognitive_resonance latent_inhibition cognitive_surplus
             transfer_learning cognitive_compression cognitive_plasticity
+            anosognosia confabulation cognitive_tempo
+            hypothesis_testing cognitive_inertia sensory_gating
           ].freeze
 
           # Capability categories for self-description
@@ -236,7 +238,13 @@ module Legion
             CognitiveSurplus:              :cognition,
             TransferLearning:              :cognition,
             CognitiveCompression:          :memory,
-            CognitivePlasticity:           :cognition
+            CognitivePlasticity:           :cognition,
+            Anosognosia:                   :safety,
+            Confabulation:                 :safety,
+            CognitiveTempo:                :cognition,
+            HypothesisTesting:             :cognition,
+            CognitiveInertia:              :cognition,
+            SensoryGating:                 :perception
           }.freeze
 
           # Subsystem health labels
