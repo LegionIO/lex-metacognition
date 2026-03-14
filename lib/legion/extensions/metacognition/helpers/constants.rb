@@ -102,6 +102,8 @@ module Legion
             cognitive_lens cognitive_echo_chamber cognitive_labyrinth
             cognitive_kaleidoscope cognitive_quicksand cognitive_volcano
             cognitive_tapestry cognitive_lighthouse cognitive_avalanche
+            cognitive_hourglass cognitive_magnet cognitive_weather
+            cognitive_furnace cognitive_anchor cognitive_garden
           ].freeze
 
           # Capability categories for self-description
@@ -343,7 +345,13 @@ module Legion
             CognitiveVolcano:              :cognition,
             CognitiveTapestry:             :cognition,
             CognitiveLighthouse:           :perception,
-            CognitiveAvalanche:            :cognition
+            CognitiveAvalanche:            :cognition,
+            CognitiveHourglass:            :cognition,
+            CognitiveMagnet:               :cognition,
+            CognitiveWeather:              :cognition,
+            CognitiveFurnace:              :cognition,
+            CognitiveAnchor:               :cognition,
+            CognitiveGarden:               :cognition
           }.freeze
 
           # Subsystem health labels
