@@ -90,6 +90,10 @@ module Legion
             cognitive_immune_memory cognitive_narrative_arc subliminal
             cognitive_palimpsest cognitive_chrysalis qualia
             cognitive_liminal cognitive_synesthesia cognitive_nostalgia
+            cognitive_zeitgeist cognitive_archaeology cognitive_aurora
+            cognitive_genesis cognitive_tessellation cognitive_fermentation
+            cognitive_metabolism cognitive_phantom cognitive_tectonics
+            cognitive_lucidity cognitive_paleontology cognitive_mycelium
           ].freeze
 
           # Capability categories for self-description
@@ -295,7 +299,19 @@ module Legion
             Qualia:                        :perception,
             CognitiveLiminal:              :cognition,
             CognitiveSynesthesia:          :perception,
-            CognitiveNostalgia:            :perception
+            CognitiveNostalgia:            :perception,
+            CognitiveZeitgeist:            :cognition,
+            CognitiveArchaeology:          :memory,
+            CognitiveAurora:               :perception,
+            CognitiveGenesis:              :cognition,
+            CognitiveTessellation:         :cognition,
+            CognitiveFermentation:         :cognition,
+            CognitiveMetabolism:           :cognition,
+            CognitivePhantom:              :cognition,
+            CognitiveTectonics:            :cognition,
+            CognitiveLucidity:             :perception,
+            CognitivePaleontology:         :memory,
+            CognitiveMycelium:             :cognition
           }.freeze
 
           # Subsystem health labels
