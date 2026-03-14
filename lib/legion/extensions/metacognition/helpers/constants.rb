@@ -81,6 +81,9 @@ module Legion
             cognitive_flexibility_training perspective_shifting
             cognitive_offloading cognitive_chunking
             attention_switching cognitive_dwell
+            goal_management cognitive_debugging
+            attention_spotlight cognitive_immune_response
+            narrative_identity cognitive_triage
           ].freeze
 
           # Capability categories for self-description
@@ -262,7 +265,13 @@ module Legion
             CognitiveOffloading:           :memory,
             CognitiveChunking:             :memory,
             AttentionSwitching:            :cognition,
-            CognitiveDwell:                :cognition
+            CognitiveDwell:                :cognition,
+            GoalManagement:                :motivation,
+            CognitiveDebugging:            :introspection,
+            AttentionSpotlight:            :perception,
+            CognitiveImmuneResponse:       :safety,
+            NarrativeIdentity:             :introspection,
+            CognitiveTriage:               :cognition
           }.freeze
 
           # Subsystem health labels
