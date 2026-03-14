@@ -78,6 +78,9 @@ module Legion
             cognitive_synthesis metacognitive_monitoring
             cognitive_defusion cognitive_reappraisal
             semantic_priming cognitive_integration
+            cognitive_flexibility_training perspective_shifting
+            cognitive_offloading cognitive_chunking
+            attention_switching cognitive_dwell
           ].freeze
 
           # Capability categories for self-description
@@ -253,7 +256,13 @@ module Legion
             CognitiveDefusion:             :introspection,
             CognitiveReappraisal:          :introspection,
             SemanticPriming:               :cognition,
-            CognitiveIntegration:          :cognition
+            CognitiveIntegration:          :cognition,
+            CognitiveFlexibilityTraining:  :cognition,
+            PerspectiveShifting:           :communication,
+            CognitiveOffloading:           :memory,
+            CognitiveChunking:             :memory,
+            AttentionSwitching:            :cognition,
+            CognitiveDwell:                :cognition
           }.freeze
 
           # Subsystem health labels
