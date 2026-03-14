@@ -5,7 +5,9 @@ require 'legion/extensions/metacognition/helpers/constants'
 require 'legion/extensions/metacognition/helpers/self_model'
 require 'legion/extensions/metacognition/helpers/snapshot_store'
 require 'legion/extensions/metacognition/helpers/narrator_bridge'
+require 'legion/extensions/metacognition/helpers/registry_store'
 require 'legion/extensions/metacognition/runners/metacognition'
+require 'legion/extensions/metacognition/runners/registry'
 require 'legion/extensions/metacognition/client'
 
 module Legion
