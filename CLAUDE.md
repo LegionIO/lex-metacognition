@@ -3,7 +3,7 @@
 **Level 3 Leaf Documentation**
 - **Parent**: `/Users/miverso2/rubymine/legion/extensions-agentic/CLAUDE.md`
 - **Gem**: `lex-metacognition`
-- **Version**: `0.1.0`
+- **Version**: `0.1.1`
 - **Namespace**: `Legion::Extensions::Metacognition`
 
 ## Purpose

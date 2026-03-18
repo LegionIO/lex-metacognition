@@ -65,6 +65,19 @@ RSpec.describe Legion::Extensions::Metacognition::Runners::Metacognition do
       result = client.explain_subsystem(subsystem: :memory)
       expect(result[:subsystem]).to eq(:memory)
     end
+
+    it 'returns nil for invalid subsystem' do
+      result = client.explain_subsystem(subsystem: :totally_bogus)
+      expect(result).to be_nil
+    end
+
+    it 'accepts all SUBSYSTEMS entries' do
+      Legion::Extensions::Metacognition::Helpers::Constants::SUBSYSTEMS.each do |sub|
+        result = client.explain_subsystem(subsystem: sub)
+        expect(result).not_to be_nil, "Expected non-nil for subsystem #{sub}"
+        expect(result[:subsystem]).to eq(sub)
+      end
+    end
   end
 
   describe '#architecture_overview' do

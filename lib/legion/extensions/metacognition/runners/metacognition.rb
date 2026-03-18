@@ -39,6 +39,8 @@ module Legion
 
           def explain_subsystem(subsystem:, **)
             sym = subsystem.to_sym
+            return nil unless Helpers::Constants::SUBSYSTEMS.include?(sym)
+
             ext_sym = sym.to_s.split('_').map(&:capitalize).join.to_sym
 
             loaded = begin
